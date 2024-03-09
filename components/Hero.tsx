@@ -5,8 +5,7 @@ import Image from "next/image";
 import { CustomButton } from ".";
 
 const Hero = () => {
-
-  const handleScroll = () =>{};
+  const handleScroll = () => {};
 
   return (
     <div className="hero"> 
@@ -21,7 +20,7 @@ const Hero = () => {
 
         <CustomButton 
           title = "Explore Cars"
-          containerStyles="bg-primary-blue text-white rounded-full mt-10 handleClick={}" 
+          containerStyles="bg-primary-blue text-white rounded-full mt-10 handleClick={}"
           handleClick={handleScroll}
         />
       </div>
@@ -30,7 +29,7 @@ const Hero = () => {
             <Image src="/hero.png" alt="hero image" fill className="object-contain" />
           </div>
           <div className="hero__image-overlay" />
-        </div>
+      </div>
     </div>
   );
 };
